@@ -1,0 +1,13 @@
+{
+  "name": "chattingroom",
+  "version": "0.0.1",
+  "description": "Minimalist multiroom chat server",
+  "scripts": {
+    "start" : "nodemon node server.js"
+  },
+  "dependencies": {
+    "mime": "~1.2.7",
+    "nodemon": "^1.18.10",
+    "socket.io": "~0.9.6"
+  }
+}
